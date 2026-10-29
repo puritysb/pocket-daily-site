@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pocket Daily privacy policy.">
+  <title>Privacy · Pocket Daily</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body><main>
+  <nav><a class="brand" href="../"><span class="mark" aria-hidden="true"></span>Pocket Daily</a><a href="../support/">Support</a></nav>
+  <p class="eyebrow">PRIVACY POLICY · UPDATED OCTOBER 29, 2026</p>
+  <h1>Local by design.</h1>
+  <p class="lead">Pocket Daily does not operate an account system, analytics service, advertising network, or cloud relay. We do not collect data from the app.</p>
+
+  <h2>Your library and reading</h2>
+  <p>Books you add, their covers, your reading positions and your text settings are stored only on your device. The built-in reader does not run scripts from books and loads nothing from the network; links in a book open in your browser only after you confirm.</p>
+
+  <h2>Keeping your place across devices</h2>
+  <p>When you are signed in to iCloud, Pocket Daily stores a fingerprint of each book you open, your position, this device's name and a random installation identifier in your own iCloud key-value storage, so your other Apple devices can offer to continue. The developer receives nothing; you can turn it off in Settings → Continue Reading. A connected X3/X4 reader whose firmware supports it exchanges the same record over the local connection only.</p>
+
+  <h2>Information Pocket Daily handles</h2>
+  <p>The app handles device discovery signals, compatible reader status, reader preferences, user-selected books, study packs, fonts, firmware files, and reader crash diagnostics only to perform actions the user requests. This information stays on the user's Apple device, local network, compatible reader, SD card, or another location explicitly selected by the user.</p>
+
+  <h2>Reader Wi-Fi setup</h2>
+  <p>When you choose Save and Connect, the Wi-Fi name and password you select go only to your identified, paired reader over authenticated, encrypted Bluetooth. On Mac, Use Current Wi-Fi can fill the saved password using Apple’s CoreWLAN API and system keychain authorization for the current network only. Pocket Daily does not retrieve passwords in the background, change this Apple device’s network, persist these credentials in the app, sync them to iCloud, include them in diagnostics, or send them to the developer. The reader saves the network after a successful connection. Its existing SD-card credential store uses device-specific obfuscation, not encryption at rest; remove saved networks on the reader before sharing its SD card. A failed connection leaves previous saved networks intact.</p>
+  <h2>Bluetooth, local network, and Wi-Fi permission</h2>
+  <p>Bluetooth is used to discover and pair with a nearby compatible reader, and to exchange reading places with that paired reader over its encrypted connection when it closes a book, wakes or goes to sleep, also while the app is in the background. Only the book fingerprint, position, progress and device name are exchanged; file names and book contents are not. Each registered, paired reader has a locally stored Bluetooth identifier and reader ID; pairing passkeys are not stored. Background delivery is controlled by the operating system, and Settings → Continue Reading can disable it. The local network and a temporary reader Wi-Fi network are used for direct transfer. After a reader has connected over the same Wi-Fi, the app checks only that reader's last address on the current network to reconnect when it is available again; this can be turned off in Settings and never changes the Wi-Fi network. While a reader is connected, the app reads the names and sizes of the books in the folders it sends to, and the reader's recent books with their fingerprints and progress, to show which Library books are on the reader; a book on the reader is copied into the Library only when the user chooses Add to Library. Use Current Wi-Fi requests location permission only to fill in the current network name (Precise Location authorization on iOS/iPadOS). macOS also uses this permission to discover the reader’s temporary network. No coordinate readings or location updates are made. Manual entry remains available if permission is denied.</p>
+  <p>If the user names a city for weather, Pocket Daily looks up that city with Apple's geocoder and requests its forecast from Apple WeatherKit; only the city's coordinates are sent, and the forecast is stored on the device and sent to the user's reader. If the user turns on calendar events, today's event titles and times are read on the device with the system's permission and sent only to the user's reader over the local connection. Event contents are not stored by the app. The choice of all or selected calendars is stored locally; a source change is sent to the reader only when the user applies it.</p>
+  <p>Outside demo mode, Pocket Daily checks GitHub for the latest official firmware version and publication date once per app launch and again when a reader connects, at most once every ten minutes. The user can retry a failed check. Downloads are user requested: confirmed Update downloads and sends to the connected reader, while Download Update for Later only prepares a local copy and requires confirmation before a later Send Update. Installation also requires confirmation on the reader. Requests contain no reader identity or file contents; GitHub receives the device's network address and its privacy statement governs its servers. The downloaded file is deleted after it is sent or the update is cancelled; interrupted transfers remain available for retry or cleanup.</p>
+
+  <h2>Files and diagnostics</h2>
+  <p>Files are never uploaded to a Pocket Daily server. Prepared files stay in the app until sent successfully or removed from the prepared list. Reader IDs and pending firmware versions are stored locally for retries and installation checks. Local book-transfer task records retain selected book references, the destination reader and per-file results so interrupted tasks can be reopened and uncertain results checked without resending. Reader crash reports may be archived locally for diagnosis and leave the device only when the user explicitly exports them. Removing the app deletes data held in its app container; files already copied to a reader, SD card, or user-selected folder remain under the user's control.</p>
+
+  <h2>Articles and subscriptions</h2>
+  <p>Sharing a link or choosing Get article text requests the selected HTTPS page and its HTTPS redirects directly from the publisher. The publisher sees your network address and URL. Pocket Daily sends no browser cookies or reader information, executes no page scripts, and fetches no embedded images. You review extracted text before saving; if extraction fails, save the link or paste selected text. Article titles, links and text stay in the app’s local shared container until explicitly deleted. Sending or deleting a reader copy leaves the app copy intact. No extraction service receives your articles.</p>
+  <p>Subscribing to an HTTPS RSS or Atom feed fetches that feed and attempts to save its latest 20 articles from feed text or original publisher pages. Refresh happens when you subscribe, open the app (at most once per five minutes), or choose Refresh. Requests carry no browser cookies or account credentials; scripts, embedded images and tracking pixels are not loaded. There is no email account connection, server relay or scheduled background delivery. Subscriptions, article text, read state and saved state stay on this device. Unsubscribing retains collected articles; deleting a feed article leaves local identity hashes to prevent it reappearing on refresh. On Mac, data is stored in the app’s local Application Support directory.</p>
+
+  <h2>Third parties and children</h2>
+  <p>Pocket Daily contains no third-party analytics or advertising SDK. The app does not knowingly collect personal information from anyone, including children, because it does not collect information through a developer-operated service.</p>
+
+  <h2>Changes and contact</h2>
+  <p>Material changes will be published here and reflected in the App Store privacy answers. Questions can be filed through <a href="https://github.com/puritysb/pocket-daily-site/issues">Pocket Daily Support</a>.</p>
+  <footer>Policy source and change history are available in the public <a href="https://github.com/puritysb/pocket-daily-site">Pocket Daily website repository</a>.</footer>
+</main></body>
+</html>

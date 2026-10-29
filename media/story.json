@@ -1,0 +1,72 @@
+[
+  {
+    "shot": "reading",
+    "title_ko": "읽는 시간에 집중하세요.",
+    "title_en": "Make room for reading.",
+    "ko": "포켓 데일리는 아이폰, 아이패드, 맥에서 쓰는 조용한 전자책 리더입니다. 계정이나 별도 리더기 없이, 책 한 권으로 시작하세요.",
+    "en": "Pocket Daily is a quiet e-book reader for iPhone, iPad and Mac. Start with one book, without a Pocket Daily account or a separate reader.",
+    "start": 0,
+    "duration": 9.9,
+    "audioDuration": 8.784535
+  },
+  {
+    "shot": "library",
+    "title_ko": "내 책을 담는 서재.",
+    "title_en": "A library of your own.",
+    "ko": "라이브러리에 디알엠 없는 이펍, 텍스트, 마크다운 파일을 추가하세요. 글자 크기와 간격, 페이지 색을 내게 편안하게 맞출 수 있습니다.",
+    "en": "Add DRM-free EPUB, text or Markdown files to the Library. Adjust type size, spacing and page color to make reading comfortable.",
+    "start": 9.9,
+    "duration": 10.233333333333333,
+    "audioDuration": 9.136054
+  },
+  {
+    "shot": "articles",
+    "title_ko": "발견한 글도, 읽을거리로.",
+    "title_en": "Keep a good article.",
+    "ko": "좋은 글은 공유 메뉴에서 저장하세요. 알에스에스 피드도 구독할 수 있습니다. 저장된 본문을 오프라인으로 읽고, 원할 때 리더기로 보내세요.",
+    "en": "Save a good article from the share sheet, or subscribe to an RSS feed. Read saved text offline and send a selected article to your reader when you choose.",
+    "start": 20.133,
+    "duration": 10.3,
+    "audioDuration": 9.197823
+  },
+  {
+    "shot": "device",
+    "title_ko": "연결은 내가 선택할 때.",
+    "title_en": "Connect when you choose.",
+    "ko": "포켓 데일리 펌웨어가 설치된 호환 엑스 쓰리와 엑스 포 리더기는 같은 와이파이에서 연결할 수 있습니다. 순정 펌웨어는 직접 연결하지 않습니다.",
+    "en": "Connect a compatible X3 or X4 running Pocket Daily firmware on the same Wi-Fi. Direct connections to factory firmware are not supported.",
+    "start": 30.433,
+    "duration": 10.366666666666667,
+    "audioDuration": 9.272381
+  },
+  {
+    "shot": "library",
+    "title_ko": "같은 책, 이어지는 자리.",
+    "title_en": "The same book. Your place.",
+    "ko": "기기마다 같은 책 파일을 준비하세요. 애플 기기 사이는 내 아이클라우드로, 리더기와는 로컬 연결로 읽던 위치를 나눕니다. 이동 여부는 내가 선택합니다.",
+    "en": "Keep the same book file on each device. Share reading places through your own iCloud between Apple devices, or locally with a connected reader. You choose whether to jump.",
+    "start": 40.8,
+    "duration": 11.266666666666667,
+    "audioDuration": 10.154376
+  },
+  {
+    "shot": "home",
+    "title_ko": "리더기도, 내 방식대로.",
+    "title_en": "A reader that feels like yours.",
+    "ko": "홈과 슬립 화면을 미리 보고 적용하세요. 카드와 날씨, 일정은 원하는 것만 추가합니다. 데모 화면은 미리보기일 뿐, 기기를 바꾸거나 전송하지 않습니다.",
+    "en": "Preview and apply Home and Sleep layouts. Add only the cards, weather and events you want. Demo screens are previews: they never change a device or send files.",
+    "start": 52.067,
+    "duration": 11.733333333333333,
+    "audioDuration": 10.628299
+  },
+  {
+    "shot": "sleep",
+    "title_ko": "다음 한 장을, 가볍게.",
+    "title_en": "Make time for the next page.",
+    "ko": "사용 가이드에서 첫 책부터 연결과 문제 해결까지 확인하세요. 펌웨어 파일 전송은 설치가 아닙니다. 설치는 리더기에서 직접 확인해야 합니다.",
+    "en": "The guide takes you from your first book to connections and troubleshooting. Transferring firmware is not installation: you must confirm separately on the reader.",
+    "start": 63.8,
+    "duration": 10.633333333333333,
+    "audioDuration": 9.518095
+  }
+]

@@ -1,0 +1,23 @@
+name: Problem report / 문제 신고
+description: Report an app, reader connection or guide problem.
+body:
+  - type: markdown
+    attributes:
+      value: "Review attachments before posting. Do not include passwords, pairing codes, personal books, calendar details or network credentials. 첨부 전에 개인 정보와 비밀번호를 제거해 주세요."
+  - type: input
+    id: versions
+    attributes:
+      label: App / OS / reader model / firmware versions
+      description: Only include versions and model names, not device IDs or serial numbers.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and expected result / 재현 순서와 기대 결과
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and error wording / 실제 결과와 오류 문구
+    validations:
+      required: true
