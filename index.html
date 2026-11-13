@@ -12,7 +12,7 @@
 <meta property="og:description" content="Read on iPhone, iPad and Mac. Send the same book to a compatible X3/X4 and edit Home and Sleep in one app. See the actual workflow and requirements."><meta property="og:url" content="https://pocket-daily.foundby.kr/">
 <meta property="og:image" content="https://pocket-daily.foundby.kr/media/intro-poster.jpg?v=2ca63960b710">
 <link rel="icon" type="image/svg+xml" href="assets/mark.svg?v=72b43a02a0c7">
-<link rel="stylesheet" href="styles.css?v=7a7fda028a2c"><script src="site.js?v=1cc2f9434381" defer></script>
+<link rel="stylesheet" href="styles.css?v=7a7fda028a2c"><link rel="stylesheet" href="release-map.css?v=d5d1f4493998"><script src="site.js?v=1cc2f9434381" defer></script>
 </head><body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><a class="brand" href="./"><img src="assets/mark.svg?v=72b43a02a0c7" width="26" height="32" alt="">Pocket Daily</a>
@@ -22,7 +22,7 @@
 <p class="lead">Reading on iPhone, iPad and Mac.<br>Reader transfers, Home and Sleep in the same app.</p>
 <p>Read in the app when your reader is elsewhere. When connected, send the same book and exchange reading places. You choose whether to accept a new place.</p>
 <div class="actions"><a class="button" href="#workflow">See the app workflow <span aria-hidden="true">↓</span></a><a class="text-link" href="guide/#start">Start without a reader →</a></div>
-<p class="availability">App release in preparation · Full X3/X4 companion features require Pocket Daily firmware.</p></div>
+<p class="availability">Full X3/X4 companion features require Pocket Daily firmware.</p></div>
 <figure class="hero-art"><img class="desktop-shot" src="assets/screens/home.webp?v=40b87dae8d6a" alt="Native Mac app with an X3 Home demo preview" loading="eager" decoding="async"><img class="phone-shot" src="assets/screens/reading.webp?v=88b64fee0797" alt="Actual iPhone reading screen" loading="eager" decoding="async"><figcaption>Development-build Mac and iPhone screens · X3 is a demo preview in the app</figcaption></figure></section>
 <div class="principles"><span>DRM-free EPUB · TXT · Markdown</span><span>No Pocket Daily account</span><span>Books and saved text work offline</span></div>
 <section class="section workflow" id="workflow"><p class="eyebrow">ONE READING ROUTINE</p><h2>Save a good article.<br>Read it. Prepare it for your reader.</h2><p class="lead">Picture preparing something for the journey home. Keep working with the same article inside the app, from saving to reading to a transfer task.</p>
@@ -35,8 +35,27 @@
 <section class="section fit" id="fit"><p class="eyebrow">CHOOSE WHAT YOU NEED</p><h2>Is it a fit for your reading?</h2>
 <div class="fit-columns"><div><h3>Consider it when you want</h3><ul><li>Reading on Apple devices and managing X3/X4 connections in one app</li><li>Working with books, articles and reading places around the same files</li><li>Previewing and explicitly applying Home, Sleep and cards in the app</li></ul></div>
 <div><h3>Free tools may already be enough</h3><p>CrossPoint is free, open-source firmware. Its web transfer and free companion apps are options if you only need to send files or articles. Full Pocket Daily companion features require installing supported Pocket Daily firmware, so weigh that change against what already works for you.</p><p class="source-links"><a href="https://github.com/crosspoint-reader/crosspoint-reader">CrossPoint</a> · <a href="https://crosspointsync.com/">CrossPoint Sync</a><br>Official information checked October 30, 2026 · not a hands-on comparison of competing apps.</p></div></div></section>
+<section id="firmware-releases" class="section release-section" aria-labelledby="firmware-releases-title">
+<h2 id="firmware-releases-title">How the firmware and app versions fit together</h2>
+<figure class="release-figure">
+<figcaption>Published release example</figcaption>
+<div class="release-map">
+<div class="release-node"><h3>CrossPoint</h3><a href="https://github.com/crosspoint-reader/crosspoint-reader/releases/tag/2.0.0" aria-label="CrossPoint 2.0.0">2.0.0</a><span>Open-source firmware</span></div>
+<div class="release-edge"><span>Code base for</span><i aria-hidden="true"></i></div>
+<div class="release-node release-node-pocket"><h3>Pocket Daily firmware</h3><a href="https://github.com/puritysb/pocket-daily-firmware/releases/tag/pocket-v1.0.0" aria-label="Pocket Daily firmware 1.0.0">1.0.0</a><span>For supported X3/X4 readers</span></div>
+<div class="release-edge release-edge-pair"><span>Reader connection</span><i aria-hidden="true"></i></div>
+<div class="release-node"><h3>Pocket Daily app</h3><a href="https://apps.apple.com/app/id6828547012" aria-label="Pocket Daily app 1.0.0">1.0.0</a><span>iPhone · iPad · Mac</span></div>
+</div>
+<p class="release-caption">CrossPoint, Pocket Daily firmware and the app each have their own version numbers. Reader features depend on the firmware installed and the features it supports.</p>
+</figure>
+<div class="release-policy">
+<div><h3>Regular updates</h3><p>We base routine firmware updates on stable CrossPoint releases and test them with Pocket Daily’s changes.</p></div>
+<div><h3>Urgent fixes between releases</h3><p>If Pocket Daily is affected by a security issue, data loss or recurring crashes, we may test and bring in the individual fix early. This is called a backport.</p></div>
+</div>
+<a href="guide/#firmware">Firmware compatibility and update instructions →</a>
+</section>
 <section class="film-teaser section"><div><p class="eyebrow">SEE BEFORE YOU DECIDE</p><h2>Take a look<br>before you decide.</h2><p>See the introduction, actual app recordings and next-update screen renders separately. Development builds and demo content are labelled.</p><a class="button light" href="watch/">Watch and read the transcript ▷</a></div><a class="poster-link" href="watch/" aria-label="Open the video page"><img src="media/intro-poster.jpg?v=2ca63960b710" alt="Pocket Daily introduction poster" loading="lazy"><span aria-hidden="true">▷</span></a></section>
-<section class="section start"><p class="eyebrow">CHECK YOUR SETUP</p><h2>Check your books.<br>Check your setup.</h2><p>Check supported formats, connection methods and firmware requirements first. The app is being prepared for release. Every feature is free, with optional one-time support in Settings. Support unlocks no features and is not a subscription.</p><div class="actions"><a class="button" href="guide/#connect">Compatibility and connection guide ↗</a><a href="support/">Troubleshooting and support</a></div></section>
+<section class="section start"><p class="eyebrow">CHECK YOUR SETUP</p><h2>Check your books.<br>Check your setup.</h2><p>Check supported formats, connection methods and firmware requirements first. The Pocket Daily app is free.</p><div class="actions"><a class="button" href="guide/#connect">Compatibility and connection guide ↗</a><a href="support/">Troubleshooting and support</a></div></section>
 <aside class="notice"><strong>Before buying or installing</strong><p>App reading needs no reader. Full companion features need supported ESP32-C3 X3/X4 hardware running Pocket Daily firmware. Ordinary CrossPoint is limited to discovery and explicit migration guidance in this app. Factory firmware cannot connect directly; X4 Classic/V2 and X4 Pro are different models. Confirm the exact model, installation eligibility and recovery method first.</p></aside></main>
 <footer class="site-footer"><div><a class="brand" href="./">Pocket Daily</a><p>A little more room for reading.</p></div>
 <div class="footer-links"><a href="guide/">User guide</a><a href="privacy/">Privacy</a><a href="notices/">Third-party notices</a><a href="https://github.com/puritysb/pocket-daily-site/issues">Report a problem</a></div>

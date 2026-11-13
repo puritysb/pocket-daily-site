@@ -1,0 +1,140 @@
+.release-section {
+  border-top: 1px solid var(--line);
+}
+
+.release-figure {
+  margin: 28px 0;
+  padding: clamp(16px, 4vw, 32px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+
+.release-figure figcaption {
+  margin: 0 0 16px;
+  font-size: .9rem;
+  font-weight: 650;
+  text-align: left;
+}
+
+.release-map {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 7rem minmax(0, 1.18fr) 7rem minmax(0, 1fr);
+  align-items: stretch;
+}
+
+.release-node {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: clamp(14px, 2vw, 24px);
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.release-node-pocket {
+  border-color: var(--accent);
+}
+
+.release-node h3 {
+  margin: 0;
+  font: inherit;
+  font-weight: 700;
+}
+
+.release-node a {
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+  text-underline-offset: .15em;
+  text-decoration-thickness: 1px;
+}
+
+.release-node span, .release-edge, .release-caption {
+  color: var(--muted);
+  font-size: .875rem;
+}
+
+.release-edge {
+  display: grid;
+  gap: 8px;
+  align-content: center;
+  padding-inline: 9px;
+  text-align: center;
+  font-size: .76rem;
+}
+
+.release-edge i {
+  position: relative;
+  display: block;
+  border-top: 1px solid currentColor;
+}
+
+.release-edge-pair i {
+  border-top-style: dashed;
+}
+
+.release-edge i::after, .release-edge-pair i::before {
+  position: absolute;
+  top: -4px;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  border: solid currentColor;
+  border-width: 1px 1px 0 0;
+  transform: rotate(45deg);
+  content: '';
+}
+
+.release-edge-pair i::before {
+  right: auto;
+  left: 0;
+  transform: rotate(-135deg);
+}
+
+.release-caption {
+  margin: 16px 0 0;
+}
+
+.release-policy {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+.release-policy > div {
+  border-top: 2px solid var(--line);
+  padding-top: 14px;
+}
+
+.release-policy h3, .release-policy p {
+  margin: 0;
+}
+
+.release-policy p {
+  margin-top: 6px;
+}
+
+@media (max-width: 760px) {
+  .release-map, .release-policy {
+    grid-template-columns: 1fr;
+  }
+
+  .release-edge {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    padding: 7px 16px;
+    text-align: left;
+  }
+
+  .release-edge i {
+    width: 22px;
+    transform: rotate(90deg);
+  }
+}
