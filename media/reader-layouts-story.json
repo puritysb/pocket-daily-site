@@ -1,0 +1,66 @@
+[
+  {
+    "start": 0,
+    "duration": 4,
+    "ko": "개발 빌드 미리보기. 선택한 책의 표지를 한 권씩 크게 보여 줍니다.",
+    "title_ko": "책 한 권을 크게",
+    "en": "Development preview. Give the selected book a large cover.",
+    "title_en": "Reading Focus"
+  },
+  {
+    "start": 4,
+    "duration": 4,
+    "ko": "페이지 키로 선택한 책 사이를 이동합니다. 다른 화면으로 넘어가지 않습니다.",
+    "title_ko": "다음 책도 같은 자리에서",
+    "en": "Page keys move between your selected books within the reading view.",
+    "title_en": "Choose another book"
+  },
+  {
+    "start": 8,
+    "duration": 4,
+    "ko": "Views에서 Calendar를 직접 고릅니다. 화면 렌더링 예시입니다.",
+    "title_ko": "다른 화면은 직접 선택",
+    "en": "Choose Calendar in Views. Rendered screens, not recorded button presses.",
+    "title_en": "Open Views"
+  },
+  {
+    "start": 12,
+    "duration": 4,
+    "ko": "Calendar에서 날짜별 일정을 확인합니다. 공개용 가상 일정입니다.",
+    "title_ko": "날짜를 골라 일정 확인",
+    "en": "Select a date in Calendar. Events shown are fictional demo data.",
+    "title_en": "Calendar"
+  },
+  {
+    "start": 16,
+    "duration": 4,
+    "ko": "다른 구성 예시: Book + Clock은 책 표지 위에 작은 시계를 배치합니다.",
+    "title_ko": "작은 시계를 더하면",
+    "en": "Another layout example: Book + Clock keeps a small clock above the book cover.",
+    "title_en": "Book + Clock"
+  },
+  {
+    "start": 20,
+    "duration": 4,
+    "ko": "책과 다음 일정을 함께 봅니다. 일정은 공개용 가상 예시입니다.",
+    "title_ko": "다음 일정은 간단하게",
+    "en": "Keep your book and the next event together. Events shown are fictional demo data.",
+    "title_en": "Book + Agenda"
+  },
+  {
+    "start": 24,
+    "duration": 4,
+    "ko": "책과 함께 날씨를 표시합니다. 여기에 보이는 날씨는 예제 데이터입니다.",
+    "title_ko": "필요한 날씨만 곁에",
+    "en": "Add weather alongside your reading. Weather shown is sample data.",
+    "title_en": "Book + Weather"
+  },
+  {
+    "start": 28,
+    "duration": 4,
+    "ko": "선택한 책과 저장된 읽기 진행률을 목록에서 확인합니다.",
+    "title_ko": "여러 책을 목록으로",
+    "en": "Compare your selected books and saved reading progress in a list.",
+    "title_en": "Reading List"
+  }
+]

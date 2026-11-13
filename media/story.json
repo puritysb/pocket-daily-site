@@ -53,11 +53,11 @@
     "shot": "home",
     "title_ko": "리더기도, 내 방식대로.",
     "title_en": "A reader that feels like yours.",
-    "ko": "홈과 슬립 화면을 미리 보고 적용하세요. 카드와 날씨, 일정은 원하는 것만 추가합니다. 데모 화면은 미리보기일 뿐, 기기를 바꾸거나 전송하지 않습니다.",
-    "en": "Preview and apply Home and Sleep layouts. Add only the cards, weather and events you want. Demo screens are previews: they never change a device or send files.",
+    "ko": "개발 빌드의 홈은 선택한 책 한 권을 크게 보여줍니다. 작은 시계나 다음 일정을 더하고, 달력은 별도 화면으로 고르세요. 데모에서는 기기가 바뀌지 않습니다.",
+    "en": "In this development preview, Home gives the selected book a large cover. Add a small clock or next event, and choose Calendar as a separate view. Demo mode never changes a reader.",
     "start": 52.067,
-    "duration": 11.733333333333333,
-    "audioDuration": 10.628299
+    "duration": 11.533333333333333,
+    "audioDuration": 10.421043
   },
   {
     "shot": "sleep",
@@ -65,7 +65,7 @@
     "title_en": "Make time for the next page.",
     "ko": "사용 가이드에서 첫 책부터 연결과 문제 해결까지 확인하세요. 펌웨어 파일 전송은 설치가 아닙니다. 설치는 리더기에서 직접 확인해야 합니다.",
     "en": "The guide takes you from your first book to connections and troubleshooting. Transferring firmware is not installation: you must confirm separately on the reader.",
-    "start": 63.8,
+    "start": 63.6,
     "duration": 10.633333333333333,
     "audioDuration": 9.518095
   }

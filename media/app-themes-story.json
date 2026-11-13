@@ -1,0 +1,34 @@
+[
+  {
+    "start": 0.0,
+    "duration": 14.0,
+    "title_ko": "Reading Focus",
+    "title_en": "Reading Focus",
+    "ko": "Reading Focus에서 책 한 권을 중심으로 봅니다.",
+    "en": "Reading Focus gives one book the main view."
+  },
+  {
+    "start": 14.0,
+    "duration": 12.0,
+    "title_ko": "Book + Clock",
+    "title_en": "Book + Clock",
+    "ko": "같은 앱에서 Book + Clock을 골라 작은 시계를 더합니다.",
+    "en": "Choose Book + Clock in the same app to add a small clock."
+  },
+  {
+    "start": 26.0,
+    "duration": 10.0,
+    "title_ko": "Book + Agenda",
+    "title_en": "Book + Agenda",
+    "ko": "Book + Agenda는 책과 다음 일정을 함께 보여 줍니다.",
+    "en": "Book + Agenda keeps the book and next event together."
+  },
+  {
+    "start": 36.0,
+    "duration": 3.0,
+    "title_ko": "Calendar",
+    "title_en": "Calendar",
+    "ko": "Calendar는 별도로 선택합니다.",
+    "en": "Choose Calendar explicitly as a separate view."
+  }
+]
